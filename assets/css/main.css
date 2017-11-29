@@ -1,0 +1,113 @@
+/* Main Styles */
+
+body {
+  background: url("https://source.unsplash.com/collection/136301/1920x1080/daily") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+/* Navbar Styles */
+
+.navbar {
+  /*background-color: #2A2D2F!important;*/
+  border-radius: 0;
+  /*position: fixed;*/
+  width: 100%;
+}
+
+.name-display {
+  position: absolute;
+  top: 35px;
+  right: 30px;
+  color: white;
+}
+
+.navIcons {
+  display: inline-block;
+  margin-right: 10px!important;
+}
+
+/* Main wrapper Styles */
+
+.wrapper {
+
+}
+
+.main {
+  background-color: transparent;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+}
+
+/* Icon Styles */
+
+.carousel-inner {
+  overflow: visible!important;
+}
+
+.jOSicon-container-wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 10px auto;
+  background-color: rgba(255,255,255, 0.3);
+  width: 97%;
+  height: 80vh;
+}
+
+.jOSicon-container {
+  margin: 20px 0px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-height: 100%;
+}
+
+.jOSicon {
+  /*background-color: rgba(255, 255, 255, 0.6);*/
+  padding: 0 10px;
+  width: 100px;
+  margin: 10px 20px;
+  position: relative;
+}
+
+.delete-icon {
+  position: absolute;
+  right: -12px;
+  top: -12px;
+  cursor: pointer;
+}
+
+.edit-icon {
+  position: absolute;
+  right: -12px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.jOSicon-squared-container {
+  box-shadow: 1px 1px 1px black;
+  margin-bottom: 8px;
+}
+
+.jOSicon-squared {
+
+}
+
+.jOSicon-header-container {
+
+}
+
+.jOSicon-header {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  opacity: 0.7;
+  text-align: center;
+}
